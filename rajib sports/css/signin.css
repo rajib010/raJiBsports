@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+}
+header .logo{
+    width: 15%;
+}
+header .logo img{
+    margin: 15px;
+}
+header nav{
+    width: 80%;
+    
+}
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 30px;
+}
+ nav ul li a:hover{
+    color: gold;
+}
+nav ul li i{
+    margin: 5px;
+}
+main{
+    width: 100%;
+    height: 700px;
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .header1{
+    color: white;
+    margin: 0;
+    font-size:  xxx-large;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+main .header1:hover{
+    color: gold;
+}
+main p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+main .p2{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+   line-height: 30px;
+
+}
+section{
+    width: 50%;
+    height: 700px;
+    margin: auto;
+}
+section label{
+    color: white;
+    font-size: larger;
+   
+    line-height: 40px;
+}
+section input{
+    background-color: rgb(108, 150, 167);
+    opacity: 0.7;
+    width: 40%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+section p{
+    text-align: left;
+}
+section p i{
+    margin: 10px;
+    font-size: xx-large;
+}
+section p i:hover{
+    font-size: 40px;
+}
+section p i:nth-child(1){
+    color: blue;
+}
+section p i:nth-child(2){
+    color: skyblue;
+}
+section p i:nth-child(3){
+    color: greenyellow;
+}
+section p a{
+    color:blue;
+    font-weight: bolder;  
+}
+section p a:hover{
+    color: green;
+}

@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(218, 214, 214, 1);
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+}
+header .logo{
+    width: 15%;
+}
+header .logo img{
+    margin: 15px;
+}
+header nav{
+    width: 80%;
+    
+}
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 30px;
+}
+ nav ul li a:hover{
+    color: gold;
+}
+nav ul li i{
+    margin: 5px;
+}
+.header2{
+    width: 100%;
+    background-color: red;
+    height: 20px;
+
+}
+.header2 a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+.header2 a:hover{
+    color: blue;
+    font-weight: bolder;
+}
+.topcontents{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.aside1{
+    width: 23%;
+    height: 678px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.aside1 ul li{
+    text-align: left;
+    color: rgb(151, 17, 151);
+    font-weight: bold;
+    font-size: 20px;
+}
+.aside1 ul li ul li{
+    color:black;
+    font-size: 15px;
+    list-style:square;
+}
+.aside1 ul li ul li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.aside1 .box1{
+    background-color: red;
+    width: 100%;
+    color: white;
+    font-size: xx-large;
+    line-height: 50px;
+    height: 50px;
+    text-decoration: underline;
+}
+.aside1 .box1:hover{
+    background-color: blue;
+}
+.main1{
+    width: 75%;
+    background-color: white;
+    height: 619px;
+}
+.main1 .pic1{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: white;
+}
+.main1 .pic1 img:hover{
+    opacity: 0.9;
+}
+.main1 .pic1 h3{
+    color: purple;
+    text-align: center;
+}
+.main1 .pic1 h3:hover{
+    color: blue;
+}
+.main1 .pic1 p{
+    font-size: 17px;
+    
+    text-align: center;
+}
+.pic1 img{
+    width: 100%;
+    height: 100%;
+}
+.main2{
+    height: 800px;
+    background-color: white;
+    width:75%;
+    margin: auto;
+
+}
