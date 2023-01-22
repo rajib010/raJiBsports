@@ -51,7 +51,7 @@ nav ul li i{
     color: blue;
     font-weight: bolder;
 }
-.topcontents{
+.contents{
     display: flex;
     margin-top: 10px;
     justify-content: space-around;
@@ -61,6 +61,10 @@ nav ul li i{
     height: 678px;
     text-align: center;
     border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.aside1 h2{
+    margin: 0;
 }
 .aside1 ul li{
     text-align: left;
@@ -77,8 +81,8 @@ nav ul li i{
     color: blue;
     text-decoration: underline;
 }
-.aside1 .box1{
-    background-color: red;
+.box1{
+    background-color: blueviolet;
     width: 100%;
     color: white;
     font-size: xx-large;
@@ -86,43 +90,135 @@ nav ul li i{
     height: 50px;
     text-decoration: underline;
 }
-.aside1 .box1:hover{
+.box1:hover{
     background-color: blue;
 }
-.main1{
+main{
     width: 75%;
-    background-color: white;
-    height: 619px;
+    background-color: pink;
+    height: 678px;
 }
-.main1 .pic1{
+main .pic1{
     width: 100%;
     margin: auto;
-    height: 500px;
-    background-color: white;
+    height: 570px;
 }
-.main1 .pic1 img:hover{
-    opacity: 0.9;
-}
-.main1 .pic1 h3{
+main .pic1 h3{
     color: purple;
     text-align: center;
 }
-.main1 .pic1 h3:hover{
+main .pic1 h3:hover{
     color: blue;
 }
-.main1 .pic1 p{
+main .pic1 p{
     font-size: 17px;
-    
     text-align: center;
 }
 .pic1 img{
     width: 100%;
     height: 100%;
 }
-.main2{
-    height: 800px;
-    background-color: white;
-    width:75%;
-    margin: auto;
+.aside2{
+    width: 23%;
+    height: 678px;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.aside2 ul{
+    font-size: 25px;
+}
+.aside2 ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.aside2 ul li a:hover{
+    text-decoration: underline;
+    color: green;
+} 
+.aside2 ul li p{
+    color: rgb(73, 1, 1);
+    font-size: large;
+    margin-top: 1px;
+    text-align: left;
+}
+main .header{
+    line-height: 5px;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.pic1 .onpic{
+margin-top: -75px;
+text-align: center;
+color: white;
+font-size: 36px;
+font-weight: bolder;
+}
+section{
+    margin-top: 1%;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe{
+    width: 200px;
+    height: 50px;
+    background: #D9D9D9;
+    mix-blend-mode: hard-light;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 300px;
+   align-items: center;
+}
+footer{
+    background-color:black;
+    width: 100%;
+    height: 140px;
+}
+.follow{
+    color: white;
+    font-size: 27px;
+    text-align: right;
+}
+.follow i{
+    padding: 10px;
+}
+.follow i:hover{
+    font-size: 32px;
+}
 
+.follow i:nth-child(1){
+    color: blue;
+}
+.follow i:nth-child(2){
+    color:  #00acee;
+}
+.follow i:nth-child(3){
+    color: rgb(0, 226, 0);
+}
+.lists{
+    width: 90%;
+    margin: auto;
+}
+.lists ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+
+.lists ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.lists ul li a:hover{
+    color: gold;
 }
