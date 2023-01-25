@@ -19,11 +19,7 @@ header nav{
     width: 80%;
     
 }
- nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
+
  nav ul li a{
     color: white;
     text-decoration: none;
@@ -32,6 +28,28 @@ header nav{
 }
  nav ul li a:hover{
     color: gold;
+}
+nav ul li{
+    position: relative;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li .dropdown{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 50px;
+    text-align:center;
+    background-color: antiquewhite;
+    display: none;
+    position: absolute;
+}
+nav ul li:hover .dropdown{
+    display: block;
 }
 nav ul li i{
     margin: 5px;
@@ -51,6 +69,7 @@ nav ul li i{
     color: blue;
     font-weight: bolder;
 }
+
 .contents{
     display: flex;
     margin-top: 10px;
@@ -210,10 +229,11 @@ footer{
 }
 .lists ul{
     display: flex;
-    justify-content:space-between;
     list-style: none;
 }
-
+.lists ul li{
+    width: 20%;
+}
 .lists ul li a{
     text-decoration: none;
     color: white;
