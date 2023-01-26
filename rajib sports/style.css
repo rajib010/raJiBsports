@@ -38,15 +38,21 @@ nav ul{
     list-style: none;
 }
 nav ul li .dropdown{
-    color: red;
+    color: white;
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 50px;
-    text-align:center;
-    background-color: antiquewhite;
+    width: 280px;
+    height: 180px;
+    padding-left: 10px;
+    background-image: url(background2.jpg);
+    opacity: 0.9;
+    border-radius: 10px;
+    background-size: contain;
     display: none;
     position: absolute;
+    line-height: 60px;
+    font-size: 26px;
 }
 nav ul li:hover .dropdown{
     display: block;
