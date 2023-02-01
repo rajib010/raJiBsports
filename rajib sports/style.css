@@ -54,6 +54,7 @@ header nav{
     color: white;
     text-decoration: none;
     font-size: larger;
+    font-family: 'Itim', cursive;
     line-height: 30px;
 }
 nav ul li a:hover{
@@ -120,7 +121,7 @@ body{
 
 .top-container{
     width: 100%;
-    height: 505px;
+    height: 580px;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
@@ -128,13 +129,14 @@ body{
 }
 
 aside{
-    height: 670px;
+    width: 20%;
+    height: 750px;
     background-color: rgb(46, 19, 19);
-    width: 270px;
+    
 }
 @media (min-width: 800px){
         aside{
-            width: 18%;
+            /* width: 18%; */
             margin-right: 10px;
         }
         aside ul p{
@@ -144,7 +146,7 @@ aside{
             font-size: 2em; 
         }
 }
-@media (max-width:800px){
+@media (max-width:700px){
     aside{
         display: none;
     }
@@ -160,16 +162,19 @@ aside ul p{
     text-align: right;
     margin-right: 20px;
     line-height: 0px;
+    font-size: 12px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 aside ul li{
     list-style: none;
-    line-height: 30px;  
+    line-height: 30px; 
+    font-family: 'Patrick Hand', cursive;
     
 }
 aside ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 18px; 
    
 }
 aside ul li a:hover{
@@ -191,30 +196,32 @@ aside img:hover{
 }
 main{
     width: 1030px;
-    height: 505px;
-    background-color: green;
+    height: 570px;
 }
 main video{
     width: 100%;
-    height: 100%;
 } 
 .links-container{
     width: 1030px;
-    margin-left: 306px;
-    height: 165px;
+    margin-left: 309px;
+    height: 175px;
+    background-color: aquamarine;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .links-container h3{
     text-align:center;
+    font-family: 'Aboreto', cursive;
     font-size: 40px;
     margin-top: 0px;
     margin-block-end: 0px;
 }
-.links-container p{
-    font-style: italic;
-    text-align: center;
-    font-size: 25px;
-    color:red;
+.links-container h4{
+    font-size: 20px;
     margin-top: 10px;
+    margin-left: 20px;
+    color: purple;
+  
 }
 .links-container .boxes{
     width: 100%;
@@ -222,17 +229,16 @@ main video{
     justify-content: space-around;
 }
 .links-container .boxes .box{
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     border-radius: 20px;
     background-color: rgb(22, 10, 22);
     text-align: center;
-    line-height: 50px;
 }
 .links-container .boxes .box a{
     color: white;
-    font-weight: bolder;
-    font-size: 30px;
+    line-height: 30px;
+    font-size: 20px;
 }
 .boxes .box :hover{
     background-color: green;
@@ -264,12 +270,17 @@ main video{
     justify-content: space-evenly;
 }
 .paragraph p{
-    width: 850px;
+    min-width: 300px;
     font-size: 30px;
     color: white;
     font-weight: bold;
     margin-left: 300px;
     font-style: italic;
+}
+.info{
+    color: white;
+    line-height: 20px;
+    font-weight: 100;
 }
  .subscribe-container .box{
     width: 200px;
