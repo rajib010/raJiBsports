@@ -1,163 +1,193 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    
+
 }
-header{
+
+header {
     width: 100%;
     height: 70px;
     background-color: purple;
     display: flex;
 }
 
-header .logo{
+header .logo {
     width: 15%;
 }
-header .logo img{
+
+header .logo img {
     margin: 15px;
 }
-header nav{
+
+header nav {
     width: 80%;
 }
-@media(max-width:550px){
-    header{
+
+@media(max-width:550px) {
+    header {
         width: 100%;
         height: 50px;
-    } 
-    header .logo img{
-        width: 20px;       
-        height: 15px; 
+    }
+
+    header .logo img {
+        width: 20px;
+        height: 15px;
         margin-left: 0px;
-    }   
-    header nav{
+    }
+
+    header nav {
         width: 80%;
         justify-content: space-around;
         font-size: x-small;
     }
 }
+
 @media (max-width:1000px) {
-    header{
+    header {
         width: 100%;
         height: 60px;
     }
-    header .logo img{
+
+    header .logo img {
         width: 100px;
     }
-    header nav{
+
+    header nav {
         width: 80%;
         justify-content: space-around;
-       
+
     }
-    
+
 }
- nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: larger;
     font-family: 'Itim', cursive;
     line-height: 30px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: gold;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     position: relative;
 }
-nav ul li ul{
+
+nav ul li ul {
     color: white;
     width: 280px;
     min-height: 50px;
     border-radius: 20px;
-    background-color:rgb(24, 68, 35);
+    background-color: rgb(24, 68, 35);
     display: none;
     position: absolute;
     line-height: 40px;
     font-size: 20px;
+    
 }
-nav ul li:hover ul{
+nav ul li:hover ul {
     display: block;
     z-index: 1;
+    
 }
-nav ul li i{
+
+nav ul li i {
     margin: 5px;
 }
-ul li img{
+
+ul li img {
     width: 30px;
 }
-.header2{
+
+.header2 {
     width: 100%;
     background-color: red;
     height: 20px;
 }
-@media(max-width:650px){
-    .header2{
+
+@media(max-width:650px) {
+    .header2 {
         display: none;
     }
 }
-.header2 a{
+
+.header2 a {
     color: white;
     text-decoration: none;
     margin: auto;
 }
-.header2 a:hover{
+
+.header2 a:hover {
     color: rgb(2, 2, 90);
     font-weight: bolder;
 }
-body{
+
+body {
     width: 100%;
     min-height: 500px;
 }
-@media(min-width:1000px){
-    body{
+
+@media(min-width:1000px) {
+    body {
         width: 100%;
         min-height: 600px
     }
 }
 
-.top-container{
+.top-container {
     width: 100%;
     height: 580px;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    
+
 }
 
-aside{
+aside {
     width: 20%;
     height: 750px;
     background-color: rgb(46, 19, 19);
-    
+
 }
-@media (min-width: 800px){
-        aside{
-            /* width: 18%; */
-            margin-right: 10px;
-        }
-        aside ul p{
-            font-size: 10px;
-        }
-        aside ul li a{
-            font-size: 2em; 
-        }
+
+@media (min-width: 800px) {
+    aside {
+        /* width: 18%; */
+        margin-right: 10px;
+    }
+
+    aside ul p {
+        font-size: 10px;
+    }
+
+    aside ul li a {
+        font-size: 2em;
+    }
 }
-@media (max-width:700px){
-    aside{
+
+@media (max-width:700px) {
+    aside {
         display: none;
     }
 }
-aside h3{
+
+aside h3 {
     text-align: center;
     color: white;
-border-bottom: 1px solid white;
-margin-block-end: 0px;
+    border-bottom: 1px solid white;
+    margin-block-end: 0px;
 }
-aside ul p{
+
+aside ul p {
     color: white;
     text-align: right;
     margin-right: 20px;
@@ -165,85 +195,105 @@ aside ul p{
     font-size: 12px;
     font-family: 'Nanum Pen Script', cursive;
 }
-aside ul li{
+
+aside ul li {
     list-style: none;
-    line-height: 30px; 
+    line-height: 30px;
     font-family: 'Patrick Hand', cursive;
-    
+
 }
-aside ul li a{
+
+aside ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px; 
-   
+    font-size: 18px;
+
 }
-aside ul li a:hover{
+
+aside ul li a:hover {
     color: green;
 }
-aside p{
+
+aside p {
     color: rgb(183, 247, 7);
     font-size: 18px;
     margin-left: 10px;
     line-height: 0px;
-    font-weight: bold;
+    font-family: 'Aboreto', cursive;
 }
-aside img{
+
+aside img {
     width: 100%;
     height: 140px;
 }
-aside img:hover{
+
+aside img:hover {
     opacity: 0.9;
 }
-main{
+
+main {
     width: 1030px;
     height: 570px;
 }
-main video{
+
+main video {
     width: 100%;
-} 
-.links-container{
+}
+
+.links-container {
     width: 1030px;
     margin-left: 309px;
     height: 175px;
-    background-color: aquamarine;
+    background-color: rgb(36, 30, 30);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.links-container h3{
-    text-align:center;
+
+.links-container h3 {
+    text-align: center;
+    color: white;
     font-family: 'Aboreto', cursive;
     font-size: 40px;
     margin-top: 0px;
     margin-block-end: 0px;
 }
-.links-container h4{
+
+.links-container h4 {
     font-size: 20px;
-    margin-top: 10px;
+    font-weight: 100;
+    margin-top: 5px;
+    font-family: 'Kalam', cursive;
     margin-left: 20px;
-    color: purple;
-  
+    color: rgb(5, 127, 241);
+    margin-bottom: 15px;
+
 }
-.links-container .boxes{
+
+.links-container .boxes {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.links-container .boxes .box{
+
+.links-container .boxes .box {
     width: 100px;
     height: 30px;
     border-radius: 20px;
     background-color: rgb(22, 10, 22);
     text-align: center;
 }
-.links-container .boxes .box a{
+
+.links-container .boxes .box a {
     color: white;
     line-height: 30px;
     font-size: 20px;
 }
-.boxes .box :hover{
+
+.boxes .box :hover {
     background-color: green;
 }
-.subscribe-container::before{
+
+.subscribe-container::before {
     content: "";
     position: absolute;
     opacity: 0.6;
@@ -254,7 +304,8 @@ main video{
     margin: auto;
     height: 500px;
 }
-.subscribe-container{
+
+.subscribe-container {
     width: 99%;
     margin: auto;
     height: 500px;
@@ -269,7 +320,8 @@ main video{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.paragraph p{
+
+.paragraph p {
     min-width: 300px;
     font-size: 30px;
     color: white;
@@ -277,72 +329,89 @@ main video{
     margin-left: 300px;
     font-style: italic;
 }
-.info{
+
+.info {
     color: white;
     line-height: 20px;
     font-weight: 100;
 }
- .subscribe-container .box{
+
+.subscribe-container .box {
     width: 200px;
     height: 100px;
     background-color: red;
     border-radius: 30px;
     margin-left: 550px;
-    text-align: center  ;
+    text-align: center;
     line-height: 100px;
     margin-top: -170px;
- }
-.subscribe-container .box a{
+}
+
+.subscribe-container .box a {
     font-size: 40px;
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
-.subscribe-container .box a:hover{
+
+.subscribe-container .box a:hover {
     text-decoration: underline;
 }
-footer{
-    background-color:black;
+
+footer {
+    background-color: black;
     width: 100%;
     height: 150px;
 }
-.follow{
+
+.follow {
     color: white;
+    font-family: 'Aboreto', cursive;
     font-size: 27px;
     text-align: right;
 }
-.follow i{
+
+.follow i {
     padding: 10px;
 }
-.follow i:hover{
+
+.follow i:hover {
     font-size: 32px;
 }
 
-.follow i:nth-child(1){
+.follow i:nth-child(1) {
     color: blue;
 }
-.follow i:nth-child(2){
-    color:  #00acee;
+
+.follow i:nth-child(2) {
+    color: #00acee;
 }
-.follow i:nth-child(3){
+
+.follow i:nth-child(3) {
     color: rgb(0, 226, 0);
 }
-.lists{
+
+.lists {
     width: 90%;
     margin: auto;
 }
-.lists ul{
+
+.lists ul {
     display: flex;
     list-style: none;
 }
-.lists ul li{
+
+.lists ul li {
     width: 20%;
 }
-.lists ul li a{
+
+.lists ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
 }
-.lists ul li a:hover{
+
+.lists ul li a:hover {
     color: gold;
 }
