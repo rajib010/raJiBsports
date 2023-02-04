@@ -135,7 +135,7 @@ main .emails{
     margin-block-end: 0px;
 }
 .emails ul{
-    list-style:decimal;
+    list-style: decimal;
     margin-top: 5px;
 }
 .emails ul li{
@@ -145,7 +145,7 @@ main .emails{
     color: white;
 }
 ul li .mails{
-    list-style: dis;
+    list-style: square;
     text-decoration: underline;
     color: rgb(179, 255, 3);
 }
@@ -167,9 +167,7 @@ ul li .mails:hover{
 footer{
     background-color:black;
     width: 100%;
-    height: 150px;
-
-    
+    height: 150px; 
 }
 .follow{
     color: white;
@@ -213,4 +211,70 @@ footer{
 }
 .lists ul li a:hover{
     color: gold;
+}
+
+@media (max-width: 500px) {
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    header .logo img{
+        width: 100px;
+    }
+    .logo{
+        width: 15%;
+    }
+    header nav {
+        width: 80%;
+        margin: auto;
+    }
+    header ul li a{
+        font-size: 13px;
+    }
+    main h2{
+        font-size: 18px;
+        width: 80%;
+        margin: -10px;
+    }
+    main p{
+        font-size: 16px;
+        margin-top: -19px;
+    }
+    .emails ul li{
+        /* margin:  10px; */
+        font-size: 18px;
+        width: 350px;
+        margin: 10px;
+    }
+    .emails ul li ul li{
+        font-size: 16px;
+    }
+    footer{
+        width: 100%;
+        height: 120px;
+    }
+    footer .follow{
+        font-size: 16px;
+    }
+    .follow i{
+        padding: 5px;
+    }
+    .lists{
+        width: 100%;
+    }
+    .lists li{
+        width: 100px;
+        text-align: center;
+
+    }
+    .lists ul li a{
+        
+        font-size: 10px;
+    }
+}
+@media (min-width: 500px){
+    header{
+        width: 100%;
+        height: 60px;
+    }
 }
